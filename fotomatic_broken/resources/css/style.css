@@ -145,10 +145,17 @@ header .desktop .button{
   justify-content: flex-start;
   align-items: flex-start;
   height: 43.5rem;
+  background-image: url('../images/banner-landingpage.jpg');
+  background-size: cover;
 }
 
 #sign-up-cta {
+  display: flex;
+  align-items: center;
   padding: 0 5rem 2.5rem 5rem;
+  margin-top: 10.625rem;
+  margin-bottom: 10.625rem;
+  margin-left: 6.25rem;
   border: solid 1px #979797;
   border-radius: 4px;
   background-color: #9dc20b;
@@ -182,11 +189,13 @@ header .desktop .button{
 #sign-up-cta .striking {
   font-family: "Rubik", sans-serif;
   padding-bottom: .75rem;
+  margin-bottom: 0.75rem;
 }
 
 #sign-up-cta .button {
   margin-top: 1.625rem;
   padding: 1.25rem 7.25rem;
+   
 }
 
 @media only screen and (max-width: 760px) {
