@@ -247,15 +247,14 @@ header .desktop .button{
 /* Features Section */
 
 #features-section {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
   justify-content: space-between;
-  padding: 4rem 5%;
   background-color: #f3f3f3;
   margin-bottom: 2.875;
 }
 
 .feature {
+  flex:100%;
   flex: 1;
   padding: 2rem;
   margin: 0px 1.25rem;
@@ -268,6 +267,7 @@ header .desktop .button{
   width: 36rem;
   height: 25.796875rem;
   margin: 0 auto;
+  flex: 50%;
 }
 
 .feature .image-container img{
@@ -343,7 +343,26 @@ header .desktop .button{
 #filters-section .images-container {
   max-width: 100%;
   padding: 0 1%;
+  display: flex;
+  margin-bottom: 4rem;
+  margin-top: 5rem;
+  align-items: center;
+  justify-items: center;
 }
+
+#filters-section .image-container{
+  flex: 25%;
+}
+
+#filters-section .image-container img{
+  display: block;
+  height: auto;
+  width: 100%;
+  max-width: 300px;
+  margin: auto;
+}
+
+
 
 @media only screen and (max-width: 760px) {
   #filters-section {
