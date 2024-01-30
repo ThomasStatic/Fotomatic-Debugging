@@ -344,7 +344,6 @@ header .desktop .button{
   max-width: 100%;
   padding: 0 1%;
   display: flex;
-  margin-bottom: 4rem;
   margin-top: 5rem;
   align-items: center;
   justify-items: center;
@@ -398,19 +397,23 @@ header .desktop .button{
 
 #quotes-section {
   background-color: #f3f3f3;
+  padding: 5rem 0;
 }
 
 #quotes-section content {
   padding: 5rem 0;
 }
 
-#quotes-section quote {
+#quotes-section .quote {
   padding-right: 1.875rem;
   font-family: "Palatino", serif;
   font-size: 1.875rem;
   line-height: 1.1;
   font-style: italic;
   color: #4a4a4a;
+  align-self: center;
+  justify-self: center;
+  margin-right: 1.9rem;
 }
 
 #quotes-section quote-citation {
